@@ -28,7 +28,7 @@ pip install pyshorteners
 Run the script:
 
 ```bash
-python shortener.py
+python main.py
 ```
 
 Then follow the CLI prompts:
@@ -46,7 +46,7 @@ Once you enter the key during the first run, it will be saved in `cred.txt` and 
 
 ## File Structure
 
-- `shortener.py` - The main Python script
+- `main.py` - The main Python script
 - `cred.txt` - Stores the Bit.ly API key securely in JSON format
 
 ## Example Output
@@ -58,11 +58,11 @@ Select URL shortening provider:
 2. TinyURL
 3. Da.gd
 Enter your choice (1-3): 2
-Enter the URL to shorten: example.com
+Enter the URL to shorten: https://dacent.vercel.app/
 
 Result:
-Original URL: https://example.com
-Shortened URL: https://tinyurl.com/abc123
+Original URL: https://dacent.vercel.app/
+Shortened URL: https://tinyurl.com/2xk536xt
 ```
 
 ## License
